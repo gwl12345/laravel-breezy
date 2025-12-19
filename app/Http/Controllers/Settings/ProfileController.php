@@ -32,7 +32,7 @@ class ProfileController extends Controller
     {
         $updater->update($request->user(), $request->all());
 
-        if ($request->user()->isDirty('email')) {
+        if ($request->user()->isDirty('email') && $request->user() instanceof MustVerifyEmail) {
             $request->user()->email_verified_at = null;
         }
 
