@@ -2,7 +2,7 @@
     "$schema": "https://getcomposer.org/schema.json",
     "name": "gwl12345/laravel-breezy",
     "type": "project",
-    "description": "A starter kit for the Laravel framework using Inertia.js (2.1.4), React (TS), and shadcn (Laravel Authentication Styling). Extended with multiple login methods support, magic link authentication, and passkey (Laragear/WebAuthn) login. Together with browser session and modified UI for the two-factor QR code svg",
+    "description": "A starter kit for the Laravel framework using Inertia.js (2.3.4), React (TS), and shadcn (Laravel Authentication Styling). Extended with multiple login methods support, magic link authentication, and passkey (Laragear/WebAuthn) login. Together with browser session and modified UI for the two-factor QR code svg",
     "keywords": [
         "laravel",
         "framework"
